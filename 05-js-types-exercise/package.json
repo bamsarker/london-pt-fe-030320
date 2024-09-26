@@ -1,5 +1,5 @@
 {
-  "name": "test-exercise",
+  "name": "js-types-exercise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run test",
-      "pre-push": "npm install && npm run test"
+      "pre-push": "npm run test"
     }
   },
   "keywords": [],

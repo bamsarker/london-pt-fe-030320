@@ -10,7 +10,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run test",
-      "pre-push": "npm install && npm run test"
+      "pre-push": "npm run test"
     }
   },
   "keywords": [],
@@ -20,5 +20,8 @@
     "concat": "^1.0.3",
     "husky": "^4.2.3",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "const": "^1.0.0"
   }
 }

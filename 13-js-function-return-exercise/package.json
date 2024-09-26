@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "concat": "concat -o ./tests/index.test.js ./index.js ./tests/tests.js ",
-    "test": "npm run concat && jest"
+    "test": "npm run concat && jest",
+    "test:dev": "npm run test -- --watch"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run test",
-      "pre-push": "npm install && npm run test"
+      "pre-push": "npm run test"
     }
   },
   "keywords": [],
